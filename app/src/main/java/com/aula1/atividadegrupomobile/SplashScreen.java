@@ -34,7 +34,7 @@ public class SplashScreen extends AppCompatActivity {
     }
     public void abrirSegundaTela(){
 //        Abrindo a tela
-        Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+        Intent intent = new Intent(SplashScreen.this, SegundaTela.class);
         startActivity(intent);
 //        Finish fecha a tela
         finish();
