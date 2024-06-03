@@ -29,7 +29,7 @@ public class SplashScreen extends AppCompatActivity {
         },5000);
 
         Glide.with(SplashScreen.this)
-                .load("https://media.giphy.com/media/XGrgxSGgZ1h9aVPT85/giphy.gif")
+                .load("https://gestaodeclinicas.ajmed.com.br/wp-content/uploads/2021/08/como-pagar-menos-imposto-na-clinica-medica.gif")
                 .into(gif);
     }
     public void abrirSegundaTela(){
