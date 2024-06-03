@@ -17,7 +17,9 @@ public class TelaWebView extends AppCompatActivity {
         setContentView(R.layout.activity_web_view);
         webView = findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("");
+        Bundle bundle = getIntent().getExtras();
+        String url = bundle.getString("url");
+        webView.loadUrl(url);
     }
 
     @Override
