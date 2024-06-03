@@ -15,7 +15,11 @@
         android:theme="@style/Theme.AtividadeGrupoMobile"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".TerceiraTela"
+=======
+            android:name=".TelaWebView"
+>>>>>>> bd72d64939b8ae14fbca4ea27042cbe7ffeb7222
             android:exported="false" />
         <activity
             android:name=".SegundaTela"
